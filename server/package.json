@@ -1,0 +1,28 @@
+{
+    "name": "three-kingdoms-rating-backend",
+    "version": "1.0.0",
+    "description": "後端服務器為三國志隊伍評分應用提供API支持。",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js",
+      "dev": "nodemon app.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/yourusername/three-kingdoms-rating-backend.git"
+    },
+    "author": "你的名字",
+    "license": "MIT",
+    "dependencies": {
+      "express": "^4.17.1",
+      "mongoose": "^5.11.15",
+      "cors": "^2.8.5",
+      "body-parser": "^1.19.0",
+      "dotenv": "^8.2.0"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.7"
+    }
+  }
+  
